@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 10 (optional)</title>
+    <link rel="stylesheet" href="css/common.css" />
+  </head>
+  <body>
+    <p><a href="index.html">Go back</a></p>
+    <form
+      class="modal-relative"
+      name="signup_form"
+      autocomplete="on"
+      novalidate
+    >
+      <label>
+        Nombre de usuario
+        <div>
+          <input
+            class="modal-form"
+            type="text"
+            name="name"
+            id="name"
+            autofocus
+            required
+            placeholder="Ej: Luis"
+          />
+        </div>
+      </label>
+      <label>
+        Email
+        <div>
+          <input
+            class="modal-form"
+            type="text"
+            name="phone"
+            id="phone"
+            required
+            placeholder="Ej:luis@gmail.com"
+          />
+        </div>
+      </label>
+      <label>
+        Edad
+        <div>
+          <input
+            type="text"
+            name="mail"
+            id="mail"
+            required
+            placeholder="Ej:32"
+          />
+        </div>
+      </label>
+      <label
+        >Genero:
+        <div>
+          <input
+            type="radio"
+            name="mail"
+            id="mail"
+            required
+            placeholder="Ej:32"
+            value="Hombre"
+          />
+          Masculino
+        </div>
+        <div>
+          <input type="radio" required placeholder="Ej:32" />
+          Femenino
+        </div>
+      </label>
+      <label
+        >Recomendado por:
+        <div>
+          <select>
+            <option value="HTML">Google</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="React">React</option>
+          </select>
+        </div>
+      </label>
+      <label>
+        Comentarios:
+        <div>
+          <textarea name="feedback" rows="3"></textarea>
+        </div>
+      </label>
+      <label>
+        Acepto Términos y Condiciones
+        <div>
+          <input type="checkbox" />
+        </div>
+      </label>
+      <button type="submit">Registrar</button>
+    </form>
+  </body>
+</html>
